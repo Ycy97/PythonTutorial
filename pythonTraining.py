@@ -66,3 +66,27 @@
 # myFunc()
 
 # print("Python is totally " + x)
+
+#Slicing in Python
+# b = "Hello World!"
+# print(b[2:5])
+# print(b[:5])
+# print(b[2:])
+# #Negative indexing, from behind
+# print(b[-5:-2])
+
+#Split method in Strings
+# a = "Hello ppl in this World!"
+# #print(a.split(" "))
+# b = a.split(" ")
+# print(b[1])
+
+#String format
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity,itemno,price))
+
+myorder2 = "I want to pay {2} dollars for {0} pieces of item {1}"
+print(myorder2.format(quantity,itemno,price))
